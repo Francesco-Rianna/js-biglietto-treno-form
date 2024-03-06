@@ -19,134 +19,94 @@
             <h1>CALCOLA IL PREZZO PER IL TUO VIAGGIO</h1>
         </div>
         <div class="card mt-5 bg-primary-subtle">
-            <div class="form-container d-flex   justify-content-center gap-2 p-5">
+            <div class="form-container  p-5">
                 <div class="row">
-                    <div class="col-6">
-                        <div class="row">
-                            <div class="col-6">
-                                <label class="text-black" for="Name">Nome</label>
-                            </div>
-
-
-                            <div class="col-1">
-                                <input id="user-name" type="name" placeholder="Inserisci nome ">
-                            </div>
+                    <div class="col-12 col-md-6 mb-3">
+                        <div>
+                            <label class="text-black" for="Name">Nome</label>
+                            <input class="" id="user-name" type="name" placeholder="Inserisci nome ">
                         </div>
-
-
-                        <div class="row mt-2">
-                            <div class="col-6">
-                                <label class="text-black" for="surname">Cognome</label>
-                            </div>
-                            <div class="col-1">
-                                <input id="user-surname" type="name" placeholder="Inserisci cognome">
-                            </div>
-
-
+                        <div class="mt-3">
+                            <label class="text-black" for="surname">Cognome</label>
+                            <input id="user-surname" type="name" placeholder="Inserisci cognome">
                         </div>
                     </div>
-
-                </div>
-
-                <div class="col-6 ">
-
-
-                    <div class="row">
-                        <div class="col-1">
+                    <div class="col-12  col-md-6">
+                        <div class="">
                             <label class="text-black" for="">Km </label>
-
-                        </div>
-                        <div class="col-1">
                             <input id="user-km" type="text" placeholder="Inserisci i km che farai">
                         </div>
-
-                    </div>
-
-
-
-
-                    <div class="row mt-2">
-                        <div class="col-1">
-
+                        <div class="mt-3 mb-3">
                             <label class="text-black" for="age">Età</label>
-                        </div>
-
-                        <div class="col-1 ">
-
                             <input class="ms-bg-input border text-black" id="user-age" type="age"
                                 placeholder="inserisci la tua età">
                         </div>
                     </div>
-
-
-
                 </div>
 
+
+                <div class="d-flex justify-content-center gap-5">
+                    <button id="generate-button" class="rounded-2 bg-secondary text-white px-5 py-2">
+                        Genera
+                    </button>
+                    <button id="delete-button" class="rounded-2 bg-secondary text-white px-5 py-2">
+                        Elimina
+                    </button>
+
+                </div>
 
 
             </div>
-            <div class="d-flex justify-content-center gap-5">
-                <button id="generate-button" class="rounded-2 bg-secondary text-white px-5 py-2">
-                    Genera
-                </button>
-                <button id="delete-button" class="rounded-2 bg-secondary text-white px-5 py-2">
-                    Elimina
-                </button>
 
+            <div class="TITLE-TICKET mt-3">
+                <h1 class="text-center">IL TUO BIGLIETTO</h1>
             </div>
 
+            <div class="card mt-5 bg-primary-subtle">
+                <div class="row">
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <h3>Nome </h3>
+                        <h5 id="name"></h5>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <h3>Cognome</h3>
+                        <h5 id="last-name"></h5>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <h3>Offerta</h3>
+                        <h5 id="discount"></h5>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <h3>Carrozza</h3>
+                        <h5 id="place"></h5>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <h3>codice cliente</h3>
+                        <h5 id="code"></h5>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-2">
+                        <h3>Prezzo</h3>
+                        <h5 id="price"></h5>
+                    </div>
 
-        </div>
 
-        <div class="TITLE-TICKET mt-3">
-            <h1 class="text-center">IL TUO BIGLIETTO</h1>
-        </div>
 
-        <div class="card mt-5 bg-primary-subtle">
-            <div class="row">
-                <div class="col-2">
-                    <h3>Nome</h3>
-                    <h5 id="name"></h5>
+
+
+
+
+
                 </div>
-                <div class="col-2">
-                    <h3>Cognome</h3>
-                    <h5 id="last-name"></h5>
-                </div>
-                <div class="col-2">
-                    <h3>Offerta</h3>
-                    <h5 id="discount"></h5>
-                </div>
-                <div class="col-2">
-                    <h3>Carrozza</h3>
-                    <h5 id="place"></h5>
-                </div>
-                <div class="col-2">
-                    <h3>codice cliente</h3>
-                    <h5 id="code"></h5>
-                </div>
-                <div class="col-2">
-                    <h3>Prezzo</h3>
-                    <h5 id="price"></h5>
-                </div>
-
-
-
-
-
-
-
 
             </div>
 
         </div>
 
-    </div>
 
 
 
 
-
-    <script type="text/javascript" src="js/script.js"></script>
+        <script type="text/javascript" src="js/script.js"></script>
 </body>
 
 </html>
